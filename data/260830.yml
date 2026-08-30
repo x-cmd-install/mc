@@ -1,0 +1,63 @@
+about:
+  description: Midnight Commander's repository
+  license: NOASSERTION
+  homepage: https://midnight-commander.org
+  head: 3b41045
+  archived: false
+  latestVersion: 
+  collectedAt: 2026-08-30T05:40:46Z
+timeline:
+  created: 2025-02-27
+  lastCommit: 2026-08-16
+  lastRelease: ?
+popularity:
+  star: 963
+  watcher: 11
+  fork: 104
+  release: 0
+  contributor: 34
+  pullRequest: 52
+  issue: 3651
+language:
+  C: 4671964
+  Shell: 128129
+  M4: 94974
+  Makefile: 32741
+  Perl: 24361
+  CSS: 8906
+  Python: 5847
+  Ruby: 3935
+totalLine: 4970857
+recent:
+  last30d:
+    since: 2026-07-31
+    release: 0
+    mergedPR: 1
+    openPR: 4
+    closedIssue: 2
+    openIssue: 2
+    commit: 3
+  last90d:
+    since: 2026-06-01
+    release: 0
+    mergedPR: 3
+    openPR: 7
+    closedIssue: 8
+    openIssue: 4
+    commit: 12
+  last180d:
+    since: 2026-03-03
+    release: 0
+    mergedPR: 30
+    openPR: 20
+    closedIssue: 24
+    openIssue: 18
+    commit: 80
+  last360d:
+    since: 2025-09-04
+    release: 0
+    mergedPR: 117
+    openPR: 28
+    closedIssue: 114
+    openIssue: 83
+    commit: 401

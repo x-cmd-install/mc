@@ -7,7 +7,7 @@ about:
   head: 894fcb6
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:55:21Z
+  collectedAt: 2026-09-04T20:44:40Z
 timeline:
   created: 2025-02-27
   lastCommit: 2026-08-30
@@ -87,6 +87,119 @@ total:
   openIssue: 657
   commit: 17001
 ---
+path: /home/runner/.x-repo/github.com/MidnightCommander/mc
+collectedAt: 2026-09-04T20:44:47Z
+loc:
+  C:
+    code: 95133
+    comments: 23200
+    blanks: 24269
+    files: 251
+  Autoconf:
+    code: 35032
+    comments: 1458
+    blanks: 1641
+    files: 61
+  CHeader:
+    code: 6865
+    comments: 3168
+    blanks: 2714
+    files: 136
+  Ini:
+    code: 6267
+    comments: 780
+    blanks: 734
+    files: 46
+  Automake:
+    code: 1493
+    comments: 29
+    blanks: 414
+    files: 71
+  M4:
+    code: 1337
+    comments: 603
+    blanks: 195
+    files: 40
+  Sh:
+    code: 1299
+    comments: 281
+    blanks: 234
+    files: 26
+  Css:
+    code: 302
+    comments: 23
+    blanks: 36
+    files: 1
+  Perl:
+    code: 180
+    comments: 46
+    blanks: 78
+    files: 4
+  Ruby:
+    code: 130
+    comments: 35
+    blanks: 15
+    files: 1
+  Python:
+    code: 117
+    comments: 8
+    blanks: 69
+    files: 6
+  RPMSpecfile:
+    code: 45
+    comments: 16
+    blanks: 24
+    files: 1
+  CSharp:
+    code: 44
+    comments: 0
+    blanks: 43
+    files: 1
+  Elisp:
+    code: 44
+    comments: 0
+    blanks: 43
+    files: 1
+  Forth:
+    code: 44
+    comments: 0
+    blanks: 43
+    files: 1
+  SystemVerilog:
+    code: 44
+    comments: 0
+    blanks: 43
+    files: 1
+  Wolfram:
+    code: 44
+    comments: 0
+    blanks: 43
+    files: 1
+  Bitbake:
+    code: 18
+    comments: 0
+    blanks: 5
+    files: 1
+  ForgeConfig:
+    code: 5
+    comments: 0
+    blanks: 2
+    files: 2
+  Markdown:
+    code: 0
+    comments: 15
+    blanks: 8
+    files: 1
+  Text:
+    code: 0
+    comments: 456
+    blanks: 188
+    files: 3
+total:
+  code: 148458
+  comments: 30119
+  blanks: 30844
+  files: 656
 ---
 date: "2026-08-24"
 repo:

@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 977 · **Forks**: 110 · **Open issues**: 3,652 · **Contributors**: 33
+- **Stars**: 979 · **Forks**: 110 · **Open issues**: 3,652 · **Contributors**: 33
 
 ## Totals (cumulative)
 
@@ -52,31 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 3 | 6 | 2 | 2 | 7 |
-| last60d | 2026-07-15 | 0 | 3 | 8 | 4 | 2 | 14 |
-| 90d | 2026-06-15 | 0 | 4 | 9 | 5 | 4 | 17 |
-| last180d | 2026-03-17 | 0 | 27 | 12 | 20 | 9 | 72 |
-| 360d | 2025-09-18 | 0 | 120 | 29 | 114 | 82 | 397 |
-| last720d | 2024-09-23 | 0 | 152 | 31 | 210 | 105 | 1042 |
-
-## Distribution status
-
-Reported by **209** distros on [repology.org](https://repology.org/project/mc). **99** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `4.8.33` | ✅ latest |
-| Debian 14 | `4.8.33` | ✅ latest |
-| Debian 13 | `4.8.33` | ✅ latest |
-| Ubuntu 26.04 LTS | `4.8.33` | ✅ latest |
-| Ubuntu 24.04 LTS | `4.8.30` | ⚠️ outdated |
-| Arch | `4.8.33` | ✅ latest |
-| Homebrew | `4.8.33` | ✅ latest |
-| Fedora rawhide | `4.8.33` | ✅ latest |
-| Nix unstable | `4.8.33` | ✅ latest |
-| Void | `4.8.33` | ✅ latest |
-| Alpine edge | `4.8.33` | ✅ latest |
-| openSUSE Tumbleweed | `4.8.33` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 2 | 6 | 2 | 2 | 7 |
+| last60d | 2026-07-16 | 0 | 3 | 8 | 4 | 2 | 14 |
+| 90d | 2026-06-16 | 0 | 4 | 9 | 5 | 4 | 17 |
+| last180d | 2026-03-18 | 0 | 27 | 11 | 20 | 9 | 72 |
+| 360d | 2025-09-19 | 0 | 120 | 29 | 114 | 82 | 397 |
+| last720d | 2024-09-24 | 0 | 152 | 31 | 210 | 104 | 1041 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:55:52Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:00:16Z._

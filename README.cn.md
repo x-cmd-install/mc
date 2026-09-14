@@ -42,7 +42,7 @@ x install mc
 
 ## 流行度
 
-- **Star**: 977 · **Fork**: 110 · **开放 issue**: 3,652 · **贡献者**: 33
+- **Star**: 979 · **Fork**: 110 · **开放 issue**: 3,652 · **贡献者**: 33
 
 ## 累计统计
 
@@ -52,31 +52,12 @@ x install mc
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 3 | 6 | 2 | 2 | 7 |
-| last60d | 2026-07-15 | 0 | 3 | 8 | 4 | 2 | 14 |
-| 90d | 2026-06-15 | 0 | 4 | 9 | 5 | 4 | 17 |
-| last180d | 2026-03-17 | 0 | 27 | 12 | 20 | 9 | 72 |
-| 360d | 2025-09-18 | 0 | 120 | 29 | 114 | 82 | 397 |
-| last720d | 2024-09-23 | 0 | 152 | 31 | 210 | 105 | 1042 |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/mc) 上共有 **209** 个发行版报告此项目。**99** 个 ✅ 已是最新上游版本，**83** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `4.8.33` | ✅ latest |
-| Debian 14 | `4.8.33` | ✅ latest |
-| Debian 13 | `4.8.33` | ✅ latest |
-| Ubuntu 26.04 LTS | `4.8.33` | ✅ latest |
-| Ubuntu 24.04 LTS | `4.8.30` | ⚠️ outdated |
-| Arch | `4.8.33` | ✅ latest |
-| Homebrew | `4.8.33` | ✅ latest |
-| Fedora rawhide | `4.8.33` | ✅ latest |
-| Nix unstable | `4.8.33` | ✅ latest |
-| Void | `4.8.33` | ✅ latest |
-| Alpine edge | `4.8.33` | ✅ latest |
-| openSUSE Tumbleweed | `4.8.33` | ✅ latest |
+| 30d | 2026-08-15 | 0 | 2 | 6 | 2 | 2 | 7 |
+| last60d | 2026-07-16 | 0 | 3 | 8 | 4 | 2 | 14 |
+| 90d | 2026-06-16 | 0 | 4 | 9 | 5 | 4 | 17 |
+| last180d | 2026-03-18 | 0 | 27 | 11 | 20 | 9 | 72 |
+| 360d | 2025-09-19 | 0 | 120 | 29 | 114 | 82 | 397 |
+| last720d | 2024-09-24 | 0 | 152 | 31 | 210 | 104 | 1041 |
 
 ## 改进这些数据
 
@@ -87,4 +68,4 @@ mc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:55:53Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:00:17Z._

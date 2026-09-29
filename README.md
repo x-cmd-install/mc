@@ -14,25 +14,25 @@ x install mc
 
 ## Code insight
 
-Total: **148,454** lines of code across **565** files in the top 5 languages.
+Total: **148,457** lines of code across **565** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 95,144 | 23,205 | 24,269 | 251 |
-| Autoconf | 35,032 | 1,458 | 1,641 | 61 |
+| Autoconf | 35,034 | 1,458 | 1,642 | 61 |
 | CHeader | 6,865 | 3,168 | 2,714 | 136 |
 | Ini | 6,267 | 780 | 734 | 46 |
-| Automake | 1,493 | 29 | 414 | 71 |
+| Automake | 1,494 | 29 | 414 | 71 |
 
 ## OpenSSF Scorecard
 
-Overall score: **4.5 / 10**
+Overall score: **4.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 7/15 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 994 · **Forks**: 112 · **Open issues**: 3,653 · **Contributors**: 33
+- **Stars**: 993 · **Forks**: 112 · **Open issues**: 3,653 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 152 · **Open PRs**: 42 · **Closed issues**: 2995 · **Open issues**: 658 · **Commits**: 17004
+- **Releases**: 0 · **Merged PRs**: 153 · **Open PRs**: 43 · **Closed issues**: 2995 · **Open issues**: 658 · **Commits**: 17006
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 0 | 1 | 15 | 1 | 1 | 3 |
-| last60d | 2026-07-30 | 0 | 3 | 18 | 4 | 2 | 11 |
-| 90d | 2026-06-30 | 0 | 4 | 20 | 6 | 3 | 15 |
-| last180d | 2026-04-01 | 0 | 24 | 22 | 19 | 7 | 64 |
-| 360d | 2025-10-03 | 0 | 118 | 38 | 112 | 80 | 388 |
-| last720d | 2024-10-08 | 0 | 152 | 42 | 206 | 104 | 971 |
+| 30d | 2026-08-30 | 0 | 2 | 15 | 1 | 1 | 5 |
+| last60d | 2026-07-31 | 0 | 4 | 19 | 4 | 2 | 13 |
+| 90d | 2026-07-01 | 0 | 4 | 21 | 6 | 3 | 17 |
+| last180d | 2026-04-02 | 0 | 25 | 23 | 19 | 6 | 66 |
+| 360d | 2025-10-04 | 0 | 119 | 39 | 112 | 80 | 390 |
+| last720d | 2024-10-09 | 0 | 153 | 43 | 205 | 104 | 967 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T06:17:58Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T06:37:29Z._

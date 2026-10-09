@@ -14,15 +14,15 @@ x install mc
 
 ## Code insight
 
-Total: **148,457** lines of code across **565** files in the top 5 languages.
+Total: **148,653** lines of code across **567** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 95,144 | 23,205 | 24,269 | 251 |
+| C | 95,324 | 23,282 | 24,331 | 252 |
 | Autoconf | 35,034 | 1,458 | 1,642 | 61 |
 | CHeader | 6,865 | 3,168 | 2,714 | 136 |
 | Ini | 6,267 | 780 | 734 | 46 |
-| Automake | 1,494 | 29 | 414 | 71 |
+| Automake | 1,510 | 29 | 420 | 72 |
 
 ## OpenSSF Scorecard
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,010 · **Forks**: 115 · **Open issues**: 3,653 · **Contributors**: 33
+- **Stars**: 1,012 · **Forks**: 116 · **Open issues**: 3,653 · **Contributors**: 33
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 154 · **Open PRs**: 44 · **Closed issues**: 2995 · **Open issues**: 658 · **Commits**: 17008
+- **Releases**: 0 · **Merged PRs**: 155 · **Open PRs**: 43 · **Closed issues**: 2995 · **Open issues**: 658 · **Commits**: 17015
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-08 | 0 | 3 | 15 | 1 | 1 | 7 |
-| last60d | 2026-08-09 | 0 | 5 | 20 | 4 | 2 | 15 |
-| 90d | 2026-07-10 | 0 | 5 | 22 | 5 | 2 | 19 |
-| last180d | 2026-04-11 | 0 | 23 | 23 | 19 | 6 | 67 |
-| 360d | 2025-10-13 | 0 | 118 | 40 | 110 | 77 | 367 |
-| last720d | 2024-10-18 | 0 | 154 | 44 | 202 | 104 | 961 |
+| 30d | 2026-09-09 | 0 | 4 | 14 | 1 | 1 | 14 |
+| last60d | 2026-08-10 | 0 | 6 | 19 | 4 | 2 | 22 |
+| 90d | 2026-07-11 | 0 | 6 | 21 | 5 | 2 | 26 |
+| last180d | 2026-04-12 | 0 | 24 | 22 | 19 | 6 | 74 |
+| 360d | 2025-10-14 | 0 | 118 | 39 | 110 | 77 | 374 |
+| last720d | 2024-10-19 | 0 | 155 | 43 | 202 | 104 | 960 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261008.yml` · 2026-10-08T06:55:24Z._
+_Snapshot: `data/card/261009.yml` · 2026-10-09T06:59:10Z._

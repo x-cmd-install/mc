@@ -14,15 +14,15 @@ x install mc
 
 ## Code insight
 
-Total: **148,653** lines of code across **567** files in the top 5 languages.
+Total: **148,650** lines of code across **567** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 95,324 | 23,282 | 24,331 | 252 |
-| Autoconf | 35,034 | 1,458 | 1,642 | 61 |
+| C | 95,318 | 23,286 | 24,331 | 252 |
+| Autoconf | 35,036 | 1,458 | 1,643 | 61 |
 | CHeader | 6,865 | 3,168 | 2,714 | 136 |
 | Ini | 6,267 | 780 | 734 | 46 |
-| Automake | 1,510 | 29 | 420 | 72 |
+| Automake | 1,511 | 29 | 420 | 72 |
 
 ## OpenSSF Scorecard
 
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,013 · **Forks**: 116 · **Open issues**: 3,653 · **Contributors**: 33
+- **Stars**: 1,012 · **Forks**: 118 · **Open issues**: 3,656 · **Contributors**: 34
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 155 · **Open PRs**: 43 · **Closed issues**: 2995 · **Open issues**: 658 · **Commits**: 17015
+- **Releases**: 0 · **Merged PRs**: 158 · **Open PRs**: 45 · **Closed issues**: 2997 · **Open issues**: 659 · **Commits**: 17021
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-10 | 0 | 4 | 14 | 1 | 1 | 14 |
-| last60d | 2026-08-11 | 0 | 6 | 19 | 3 | 2 | 22 |
-| 90d | 2026-07-12 | 0 | 6 | 21 | 5 | 2 | 26 |
-| last180d | 2026-04-13 | 0 | 24 | 22 | 19 | 6 | 74 |
-| 360d | 2025-10-15 | 0 | 117 | 39 | 110 | 76 | 374 |
-| last720d | 2024-10-20 | 0 | 155 | 43 | 200 | 104 | 942 |
+| 30d | 2026-09-11 | 0 | 6 | 15 | 3 | 2 | 16 |
+| last60d | 2026-08-12 | 0 | 9 | 21 | 5 | 3 | 24 |
+| 90d | 2026-07-13 | 0 | 9 | 23 | 7 | 3 | 31 |
+| last180d | 2026-04-14 | 0 | 27 | 24 | 21 | 7 | 61 |
+| 360d | 2025-10-16 | 0 | 120 | 41 | 112 | 75 | 365 |
+| last720d | 2024-10-21 | 0 | 158 | 45 | 202 | 105 | 947 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261010.yml` · 2026-10-10T06:40:40Z._
+_Snapshot: `data/card/261011.yml` · 2026-10-11T06:38:45Z._

@@ -42,22 +42,41 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,026 · **Forks**: 121 · **Open issues**: 3,663 · **Contributors**: 35
+- **Stars**: 1,025 · **Forks**: 121 · **Open issues**: 3,664 · **Contributors**: 35
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 165 · **Open PRs**: 45 · **Closed issues**: 3004 · **Open issues**: 659 · **Commits**: 17041
+- **Releases**: 0 · **Merged PRs**: 165 · **Open PRs**: 46 · **Closed issues**: 3006 · **Open issues**: 658 · **Commits**: 17041
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 9 | 13 | 6 | 5 | 28 |
-| last60d | 2026-08-23 | 0 | 12 | 22 | 8 | 6 | 41 |
-| 90d | 2026-07-24 | 0 | 13 | 26 | 10 | 7 | 48 |
-| last180d | 2026-04-25 | 0 | 23 | 27 | 22 | 11 | 72 |
-| 360d | 2025-10-27 | 0 | 114 | 41 | 101 | 70 | 365 |
-| last720d | 2024-11-01 | 0 | 165 | 45 | 208 | 106 | 958 |
+| 30d | 2026-09-23 | 0 | 9 | 14 | 7 | 5 | 28 |
+| last60d | 2026-08-24 | 0 | 12 | 23 | 9 | 6 | 41 |
+| 90d | 2026-07-25 | 0 | 13 | 26 | 10 | 7 | 48 |
+| last180d | 2026-04-26 | 0 | 23 | 28 | 23 | 11 | 72 |
+| 360d | 2025-10-28 | 0 | 113 | 42 | 101 | 69 | 365 |
+| last720d | 2024-11-02 | 0 | 165 | 46 | 209 | 106 | 949 |
+
+## Distribution status
+
+Reported by **203** distros on [repology.org](https://repology.org/project/mc). **100** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `4.8.33` | ✅ latest |
+| Debian 14 | `4.8.33` | ✅ latest |
+| Debian 13 | `4.8.33` | ✅ latest |
+| Ubuntu 26.04 LTS | `4.8.33` | ✅ latest |
+| Ubuntu 24.04 LTS | `4.8.30` | ⚠️ outdated |
+| Arch | `4.8.33` | ✅ latest |
+| Homebrew | `4.8.33` | ✅ latest |
+| Fedora rawhide | `4.8.33` | ✅ latest |
+| Nix unstable | `4.8.33` | ✅ latest |
+| Void | `4.8.33` | ✅ latest |
+| Alpine edge | `4.8.33` | ✅ latest |
+| openSUSE Tumbleweed | `4.8.33` | ✅ latest |
 
 ## Improve this data
 
@@ -68,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:29:56Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:33:40Z._

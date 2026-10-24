@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,025 · **Forks**: 121 · **Open issues**: 3,664 · **Contributors**: 35
+- **Stars**: 1,025 · **Forks**: 123 · **Open issues**: 3,664 · **Contributors**: 35
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 165 · **Open PRs**: 46 · **Closed issues**: 3006 · **Open issues**: 658 · **Commits**: 17041
+- **Releases**: 0 · **Merged PRs**: 165 · **Open PRs**: 47 · **Closed issues**: 3006 · **Open issues**: 658 · **Commits**: 17041
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-23 | 0 | 9 | 14 | 7 | 5 | 28 |
-| last60d | 2026-08-24 | 0 | 12 | 23 | 9 | 6 | 41 |
-| 90d | 2026-07-25 | 0 | 13 | 26 | 10 | 7 | 48 |
-| last180d | 2026-04-26 | 0 | 23 | 28 | 23 | 11 | 72 |
-| 360d | 2025-10-28 | 0 | 113 | 42 | 101 | 69 | 365 |
-| last720d | 2024-11-02 | 0 | 165 | 46 | 209 | 106 | 949 |
+| 30d | 2026-09-24 | 0 | 9 | 13 | 7 | 5 | 28 |
+| last60d | 2026-08-25 | 0 | 12 | 24 | 8 | 6 | 41 |
+| 90d | 2026-07-26 | 0 | 13 | 27 | 10 | 7 | 48 |
+| last180d | 2026-04-27 | 0 | 22 | 29 | 21 | 10 | 72 |
+| 360d | 2025-10-29 | 0 | 112 | 43 | 100 | 69 | 365 |
+| last720d | 2024-11-03 | 0 | 165 | 47 | 209 | 106 | 948 |
 
 ## Distribution status
 
-Reported by **203** distros on [repology.org](https://repology.org/project/mc). **100** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
+Reported by **204** distros on [repology.org](https://repology.org/project/mc). **101** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261023.yml` · 2026-10-23T05:33:40Z._
+_Snapshot: `data/card/261024.yml` · 2026-10-24T05:23:28Z._

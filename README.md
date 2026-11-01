@@ -14,13 +14,13 @@ x install mc
 
 ## Code insight
 
-Total: **148,881** lines of code across **569** files in the top 5 languages.
+Total: **148,928** lines of code across **569** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 95,576 | 23,352 | 24,390 | 253 |
+| C | 95,620 | 23,374 | 24,404 | 253 |
 | Autoconf | 35,036 | 1,458 | 1,643 | 61 |
-| CHeader | 6,866 | 3,170 | 2,714 | 136 |
+| CHeader | 6,869 | 3,170 | 2,714 | 136 |
 | Ini | 6,267 | 780 | 734 | 46 |
 | Automake | 1,484 | 29 | 408 | 73 |
 
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 166 · **Open PRs**: 49 · **Closed issues**: 3007 · **Open issues**: 660 · **Commits**: 17043
+- **Releases**: 0 · **Merged PRs**: 168 · **Open PRs**: 47 · **Closed issues**: 3009 · **Open issues**: 658 · **Commits**: 17048
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 7 | 11 | 7 | 7 | 25 |
-| last60d | 2026-09-01 | 0 | 12 | 24 | 8 | 8 | 39 |
-| 90d | 2026-08-02 | 0 | 14 | 28 | 11 | 9 | 47 |
-| last180d | 2026-05-04 | 0 | 20 | 31 | 21 | 11 | 73 |
-| 360d | 2025-11-05 | 0 | 104 | 45 | 99 | 62 | 340 |
-| last720d | 2024-11-10 | 0 | 166 | 49 | 207 | 108 | 928 |
+| 30d | 2026-10-02 | 0 | 9 | 9 | 7 | 7 | 29 |
+| last60d | 2026-09-02 | 0 | 14 | 22 | 8 | 8 | 44 |
+| 90d | 2026-08-03 | 0 | 16 | 26 | 11 | 9 | 52 |
+| last180d | 2026-05-05 | 0 | 20 | 29 | 21 | 11 | 64 |
+| 360d | 2025-11-06 | 0 | 105 | 43 | 97 | 62 | 327 |
+| last720d | 2024-11-11 | 0 | 168 | 47 | 208 | 107 | 933 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:28:55Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T06:58:43Z._

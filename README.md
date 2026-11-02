@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,034 · **Forks**: 123 · **Open issues**: 3,667 · **Contributors**: 36
+- **Stars**: 1,034 · **Forks**: 123 · **Open issues**: 3,668 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 168 · **Open PRs**: 47 · **Closed issues**: 3009 · **Open issues**: 658 · **Commits**: 17048
+- **Releases**: 0 · **Merged PRs**: 168 · **Open PRs**: 49 · **Closed issues**: 3009 · **Open issues**: 659 · **Commits**: 17048
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 0 | 9 | 9 | 7 | 7 | 29 |
-| last60d | 2026-09-02 | 0 | 14 | 22 | 8 | 8 | 44 |
-| 90d | 2026-08-03 | 0 | 16 | 26 | 11 | 9 | 52 |
-| last180d | 2026-05-05 | 0 | 20 | 29 | 21 | 11 | 64 |
-| 360d | 2025-11-06 | 0 | 105 | 43 | 97 | 62 | 327 |
-| last720d | 2024-11-11 | 0 | 168 | 47 | 208 | 107 | 933 |
+| 30d | 2026-10-03 | 0 | 9 | 10 | 7 | 8 | 29 |
+| last60d | 2026-09-03 | 0 | 14 | 24 | 8 | 9 | 44 |
+| 90d | 2026-08-04 | 0 | 16 | 28 | 11 | 10 | 52 |
+| last180d | 2026-05-06 | 0 | 20 | 31 | 21 | 12 | 64 |
+| 360d | 2025-11-07 | 0 | 105 | 45 | 96 | 63 | 327 |
+| last720d | 2024-11-12 | 0 | 168 | 49 | 208 | 108 | 933 |
 
 ## Distribution status
 
-Reported by **204** distros on [repology.org](https://repology.org/project/mc). **101** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
+Reported by **204** distros on [repology.org](https://repology.org/project/mc). **99** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T06:58:43Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T06:59:08Z._

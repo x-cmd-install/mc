@@ -1,130 +1,21 @@
-- repo: aixtoolbox
-  srcname: mc
-  visiblename: mc
-  version: 4.8.31
-  origversion: 4.8.31-1
-  status: outdated
-  summary: User-friendly text console file manager and visual shell.
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - System Environment/Shells
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: mc
-  visiblename: mc
-  version: 4.8.19
-  origversion: 1:4.8.19-9.el8
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  maintainers:
-    - packager@cloudlinux.com
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-- repo: centos_6
-  subrepo: os
-  srcname: mc
-  visiblename: mc
-  version: 4.7.0.2
-  origversion: 1:4.7.0.2-6.el6
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPLv2
-  categories:
-    - System Environment/Shells
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: mc
+- repo: slackware_current
+  subrepo: slackware
   binname: mc
   visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1
-  status: newest
-  summary: A file manager that emulates Norton Commander
-  licenses:
-    - GPL-3.0-or-later
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: mc
-  binnames:
-    - mc-debugsource
-    - mc-debuginfo
-    - mc-python
-    - mc
-  visiblename: mc
-  version: 4.8.26
-  origversion: 1:4.8.26-5.el9
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: mc
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1
-  status: newest
-  summary: A file manager that emulates Norton Commander
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: mc
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1
-  status: newest
-  summary: A file manager that emulates Norton Commander
-  licenses:
-    - GPL-3.0-or-later
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: mc
-  binnames:
-    - mc
-    - mc-data
-  visiblename: mc
-  version: 4.8.29
-  origversion: 3:4.8.29-2
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - debian@denis-briand.fr
-    - tille@debian.org
-    - yury@shurup.com
-  categories:
-    - utils
-- repo: aerynos
-  srcname: midnight-commander
-  visiblename: midnight-commander
   version: 4.8.33
   origversion: null
   status: newest
-  summary: GNU Midnight Commander is a user shell with text-mode full-screen interface.
-  licenses:
-    - GPL-3.0-only
-- repo: aix_osp
-  srcname: mc
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: mc
   visiblename: mc
-  version: 4.6.1
-  origversion: 4.6.1-1
-  status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.6.1
-  origversion: 4.6.1-2
-  status: legacy
+  version: 4.8.27
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: aix_osp
   srcname: mc
   visiblename: mc
@@ -191,6 +82,128 @@
   version: 4.8.25
   origversion: 4.8.25-1
   status: outdated
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: mc
+  visiblename: mc
+  version: 4.8.27
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: aixtoolbox
+  srcname: mc
+  visiblename: mc
+  version: 4.8.31
+  origversion: 4.8.31-1
+  status: outdated
+  summary: User-friendly text console file manager and visual shell.
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - System Environment/Shells
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: mc
+  visiblename: mc
+  version: 4.8.19
+  origversion: 1:4.8.19-9.el8
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  maintainers:
+    - packager@cloudlinux.com
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: mc
+  binnames:
+    - mc-debugsource
+    - mc-debuginfo
+    - mc-python
+    - mc
+  visiblename: mc
+  version: 4.8.26
+  origversion: 1:4.8.26-5.el9
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.30
+  origversion: 4.8.30-1
+  status: outdated
+  summary: A file manager that emulates Norton Commander
+  licenses:
+    - GPL
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: 4.8.33-1
+  status: newest
+  summary: A file manager that emulates Norton Commander
+  licenses:
+    - GPL-3.0-or-later
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: mc
+  binnames:
+    - mc
+    - mc-data
+  visiblename: mc
+  version: 4.8.29
+  origversion: 3:4.8.29-2
+  status: outdated
+  maintainers:
+    - onlyjob@debian.org
+    - debian@denis-briand.fr
+    - tille@debian.org
+    - yury@shurup.com
+  categories:
+    - utils
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.6.1
+  origversion: 4.6.1-1
+  status: legacy
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.6.1
+  origversion: 4.6.1-2
+  status: legacy
+- repo: aerynos
+  srcname: midnight-commander
+  visiblename: midnight-commander
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: GNU Midnight Commander is a user shell with text-mode full-screen interface.
+  licenses:
+    - GPL-3.0-only
 - repo: alpine_3_17
   subrepo: main
   srcname: mc
@@ -701,6 +714,18 @@
   summary: A file manager that emulates Norton Commander
   licenses:
     - GPL-3.0-or-later
+- repo: centos_6
+  subrepo: os
+  srcname: mc
+  visiblename: mc
+  version: 4.7.0.2
+  origversion: 1:4.7.0.2-6.el6
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPLv2
+  categories:
+    - System Environment/Shells
 - repo: raspbian_testing
   subrepo: main
   srcname: mc
@@ -1164,23 +1189,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: mc
-  binnames:
-    - mc
-    - mc-python
-    - mc-debuginfo
-    - mc-debugsource
-  visiblename: mc
-  version: 4.8.32
-  origversion: 1:4.8.32-1.fc40
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: mc
   binnames:
@@ -1197,15 +1205,17 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: updates
   srcname: mc
   binnames:
     - mc
     - mc-python
+    - mc-debuginfo
+    - mc-debugsource
   visiblename: mc
   version: 4.8.32
-  origversion: 1:4.8.32-1.fc41
+  origversion: 1:4.8.32-1.fc40
   status: outdated
   summary: User-friendly text console file manager and visual shell
   licenses:
@@ -1222,6 +1232,21 @@
   version: 4.8.31
   origversion: 1:4.8.31-2.fc41
   status: legacy
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: mc
+  binnames:
+    - mc
+    - mc-python
+  visiblename: mc
+  version: 4.8.32
+  origversion: 1:4.8.32-1.fc41
+  status: outdated
   summary: User-friendly text console file manager and visual shell
   licenses:
     - GPL-3.0-or-later
@@ -1272,6 +1297,17 @@
     - GPL-3.0-or-later
   categories:
     - Unspecified
+- repo: side
+  srcname: runtime/gui/mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: A visual file manager.
+  maintainers:
+    - uglyside@yandex.ru
+  licenses:
+    - GPL-3
 - repo: fedora_rawhide
   subrepo: development
   srcname: mc
@@ -1531,6 +1567,17 @@
     - GPLv3+
   categories:
     - File tools
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.30
+  origversion: 4.8.30-1
+  status: outdated
+  summary: A file manager that emulates Norton Commander
+  licenses:
+    - GPL
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: mc
@@ -1939,23 +1986,23 @@
 - repo: parabola
   subrepo: libre
   srcname: mc
-  binname: mc
-  visiblename: mc
-  version: 4.8.30
-  origversion: 4.8.30-1.parabola1
-  status: outdated
-  summary: A file manager that emulates Norton Commander
-  licenses:
-    - GPL
-- repo: parabola
-  subrepo: libre
-  srcname: mc
   binname: mc-debug
   visiblename: mc-debug
   version: 4.8.26
   origversion: 4.8.26-1.parabola1
   status: legacy
   summary: Detached debugging symbols for mc
+  licenses:
+    - GPL
+- repo: parabola
+  subrepo: libre
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.30
+  origversion: 4.8.30-1.parabola1
+  status: outdated
+  summary: A file manager that emulates Norton Commander
   licenses:
     - GPL
 - repo: pardus_21
@@ -2108,7 +2155,7 @@
   srcname: mc
   visiblename: mc
   version: 4.8.33
-  origversion: 4.8.33-1
+  origversion: 4.8.33-2
   status: newest
 - repo: ptxdist
   srcname: mc
@@ -2261,54 +2308,7 @@
   summary: User shell with text-mode full-screen interface.
   categories:
     - File Manager
-- repo: side
-  srcname: runtime/gui/mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: A visual file manager.
-  maintainers:
-    - uglyside@yandex.ru
-  licenses:
-    - GPL-3
 - repo: slackware_15_0
-  subrepo: slackware
-  binname: mc
-  visiblename: mc
-  version: 4.8.27
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: mc
-  visiblename: mc
-  version: 4.8.27
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
   subrepo: slackware
   binname: mc
   visiblename: mc
@@ -2524,14 +2524,14 @@
   categories:
     - universe/utils
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+  subrepo: noble/universe
   srcname: mc
   binnames:
     - mc
     - mc-data
   visiblename: mc
   version: 4.8.30
-  origversion: 3:4.8.30-1ubuntu0.1
+  origversion: 3:4.8.30-1build2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2541,14 +2541,14 @@
   categories:
     - universe/utils
 - repo: ubuntu_24_04
-  subrepo: noble/universe
+  subrepo: noble-updates/universe
   srcname: mc
   binnames:
     - mc
     - mc-data
   visiblename: mc
   version: 4.8.30
-  origversion: 3:4.8.30-1build2
+  origversion: 3:4.8.30-1ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

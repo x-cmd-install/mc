@@ -14,12 +14,12 @@ x install mc
 
 ## Code insight
 
-Total: **148,928** lines of code across **569** files in the top 5 languages.
+Total: **148,844** lines of code across **569** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 95,620 | 23,374 | 24,404 | 253 |
-| Autoconf | 35,036 | 1,458 | 1,643 | 61 |
+| Autoconf | 34,929 | 1,458 | 1,639 | 61 |
 | CHeader | 6,869 | 3,170 | 2,714 | 136 |
 | Ini | 6,267 | 780 | 734 | 46 |
 | Automake | 1,484 | 29 | 408 | 73 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,034 · **Forks**: 123 · **Open issues**: 3,668 · **Contributors**: 36
+- **Stars**: 1,036 · **Forks**: 123 · **Open issues**: 3,668 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 168 · **Open PRs**: 49 · **Closed issues**: 3009 · **Open issues**: 659 · **Commits**: 17048
+- **Releases**: 0 · **Merged PRs**: 169 · **Open PRs**: 49 · **Closed issues**: 3009 · **Open issues**: 659 · **Commits**: 17058
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 9 | 10 | 7 | 8 | 29 |
-| last60d | 2026-09-05 | 0 | 14 | 23 | 8 | 9 | 44 |
-| 90d | 2026-08-06 | 0 | 16 | 28 | 11 | 10 | 52 |
-| last180d | 2026-05-08 | 0 | 20 | 31 | 21 | 12 | 64 |
-| 360d | 2025-11-09 | 0 | 103 | 45 | 95 | 63 | 327 |
-| last720d | 2024-11-14 | 0 | 168 | 49 | 208 | 108 | 916 |
+| 30d | 2026-10-06 | 0 | 10 | 10 | 7 | 8 | 39 |
+| last60d | 2026-09-06 | 0 | 15 | 23 | 8 | 9 | 54 |
+| 90d | 2026-08-07 | 0 | 17 | 28 | 11 | 10 | 62 |
+| last180d | 2026-05-09 | 0 | 21 | 31 | 21 | 12 | 74 |
+| 360d | 2025-11-10 | 0 | 104 | 45 | 95 | 63 | 337 |
+| last720d | 2024-11-15 | 0 | 169 | 49 | 208 | 108 | 926 |
 
 ## Distribution status
 
@@ -87,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:22:35Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:45:42Z._

@@ -14,15 +14,15 @@ x install mc
 
 ## Code insight
 
-Total: **148,844** lines of code across **569** files in the top 5 languages.
+Total: **148,635** lines of code across **568** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 95,620 | 23,374 | 24,404 | 253 |
+| C | 95,605 | 23,374 | 24,403 | 253 |
 | Autoconf | 34,929 | 1,458 | 1,639 | 61 |
-| CHeader | 6,869 | 3,170 | 2,714 | 136 |
+| CHeader | 6,676 | 3,145 | 2,690 | 135 |
 | Ini | 6,267 | 780 | 734 | 46 |
-| Automake | 1,484 | 29 | 408 | 73 |
+| Automake | 1,483 | 29 | 408 | 73 |
 
 ## OpenSSF Scorecard
 
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,036 · **Forks**: 123 · **Open issues**: 3,668 · **Contributors**: 36
+- **Stars**: 1,035 · **Forks**: 123 · **Open issues**: 3,668 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 169 · **Open PRs**: 49 · **Closed issues**: 3009 · **Open issues**: 659 · **Commits**: 17058
+- **Releases**: 0 · **Merged PRs**: 170 · **Open PRs**: 48 · **Closed issues**: 3009 · **Open issues**: 659 · **Commits**: 17062
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 10 | 10 | 7 | 8 | 39 |
-| last60d | 2026-09-07 | 0 | 15 | 23 | 8 | 9 | 54 |
-| 90d | 2026-08-08 | 0 | 17 | 28 | 11 | 10 | 62 |
-| last180d | 2026-05-10 | 0 | 21 | 31 | 21 | 12 | 74 |
-| 360d | 2025-11-11 | 0 | 104 | 45 | 90 | 63 | 337 |
-| last720d | 2024-11-16 | 0 | 169 | 49 | 208 | 108 | 926 |
+| 30d | 2026-10-08 | 0 | 10 | 10 | 7 | 8 | 43 |
+| last60d | 2026-09-08 | 0 | 16 | 22 | 8 | 9 | 58 |
+| 90d | 2026-08-09 | 0 | 18 | 27 | 11 | 10 | 66 |
+| last180d | 2026-05-11 | 0 | 22 | 30 | 18 | 12 | 78 |
+| 360d | 2025-11-12 | 0 | 102 | 44 | 88 | 61 | 341 |
+| last720d | 2024-11-17 | 0 | 170 | 48 | 208 | 107 | 930 |
 
 ## Distribution status
 
-Reported by **204** distros on [repology.org](https://repology.org/project/mc). **99** are ✅ on the latest upstream release, **80** are ⚠️ on an older version.
+Reported by **204** distros on [repology.org](https://repology.org/project/mc). **102** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:35:29Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:58:50Z._

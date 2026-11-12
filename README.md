@@ -42,7 +42,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,043 · **Forks**: 124 · **Open issues**: 3,669 · **Contributors**: 36
+- **Stars**: 1,045 · **Forks**: 125 · **Open issues**: 3,669 · **Contributors**: 36
 
 ## Totals (cumulative)
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 0 | 6 | 10 | 5 | 7 | 30 |
-| last60d | 2026-09-12 | 0 | 15 | 23 | 9 | 8 | 55 |
-| 90d | 2026-08-13 | 0 | 18 | 29 | 11 | 10 | 62 |
-| last180d | 2026-05-15 | 0 | 21 | 32 | 19 | 12 | 76 |
-| 360d | 2025-11-16 | 0 | 99 | 46 | 83 | 56 | 317 |
-| last720d | 2024-11-21 | 0 | 170 | 50 | 209 | 107 | 930 |
+| 30d | 2026-10-13 | 0 | 6 | 10 | 5 | 7 | 30 |
+| last60d | 2026-09-13 | 0 | 15 | 23 | 9 | 8 | 55 |
+| 90d | 2026-08-14 | 0 | 18 | 29 | 11 | 10 | 62 |
+| last180d | 2026-05-16 | 0 | 21 | 32 | 19 | 12 | 76 |
+| 360d | 2025-11-17 | 0 | 97 | 46 | 82 | 56 | 317 |
+| last720d | 2024-11-22 | 0 | 170 | 50 | 209 | 107 | 930 |
 
 ## Distribution status
 
-Reported by **204** distros on [repology.org](https://repology.org/project/mc). **102** are ✅ on the latest upstream release, **77** are ⚠️ on an older version.
+Reported by **203** distros on [repology.org](https://repology.org/project/mc). **102** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:31:39Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:32:08Z._

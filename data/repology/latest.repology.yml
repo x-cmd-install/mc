@@ -1,120 +1,108 @@
-- repo: side
-  srcname: runtime/gui/mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: A visual file manager.
-  maintainers:
-    - uglyside@yandex.ru
-  licenses:
-    - GPL-3
-- repo: slackware_15_0
-  subrepo: slackware
-  binname: mc
-  visiblename: mc
-  version: 4.8.27
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: mc
-  visiblename: mc
-  version: 4.8.27
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: mc
-  visiblename: mc
-  version: 4.8.27
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: aix_osp
+- repo: amazon_2
   srcname: mc
   visiblename: mc
-  version: 4.8.24
-  origversion: 4.8.24-1
+  version: 4.8.7
+  origversion: 1:4.8.7-11.amzn2.0.2
   status: legacy
-- repo: aixtoolbox
-  srcname: mc
-  visiblename: mc
-  version: 4.8.31
-  origversion: 4.8.31-1
-  status: outdated
-  summary: User-friendly text console file manager and visual shell.
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - System Environment/Shells
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: mc
-  visiblename: mc
-  version: 4.8.19
-  origversion: 1:4.8.19-9.el8
-  status: outdated
   summary: User-friendly text console file manager and visual shell
-  maintainers:
-    - packager@cloudlinux.com
   licenses:
     - GPLv3+
   categories:
-    - Unspecified
-- repo: almalinux_9
-  subrepo: AppStream
+    - System Environment/Shells
+- repo: amazon_2
+  srcname: mc
+  visiblename: mc
+  version: 4.8.7
+  origversion: 1:4.8.7-11.amzn2
+  status: legacy
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPLv3+
+  categories:
+    - System Environment/Shells
+- repo: amazon_1
+  subrepo: main
+  srcname: mc
+  visiblename: mc
+  version: 4.7.0.2
+  origversion: 1:4.7.0.2-3.7.amzn1
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPLv2
+  categories:
+    - System Environment/Shells
+- repo: homebrew
+  srcname: midnight-commander
+  visiblename: midnight-commander
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal-based visual file manager
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+- repo: ibmi
   srcname: mc
   binnames:
     - mc
-    - mc-python
-    - mc-debuginfo
-    - mc-debugsource
   visiblename: mc
-  version: 4.8.26
-  origversion: 1:4.8.26-5.el9
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  maintainers:
-    - packager@almalinux.org
+  version: 4.8.33
+  origversion: 4.8.33-2
+  status: newest
+  summary: Midnight Commander
   licenses:
-    - GPLv3+
+    - GPL-3.0-or-later
   categories:
     - Unspecified
-- repo: manjaro_stable
-  subrepo: extra
+- repo: starkos
+  subrepo: main
   srcname: mc
-  binname: mc
   visiblename: mc
   version: 4.8.33
   origversion: 4.8.33-1
   status: newest
   summary: A file manager that emulates Norton Commander
+  maintainers:
+    - starkos@disroot.org
+- repo: t2
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: GNU Midnight Commander
+  maintainers:
+    - stelzy@gmail.com
   licenses:
-    - GPL-3.0-or-later
+    - GPL
+  categories:
+    - extra/shell
+- repo: crux_37
+  subrepo: opt
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: GNU Midnight Commander
+  maintainers:
+    - jue@crux.nu
+- repo: crux_38
+  subrepo: opt
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: GNU Midnight Commander
+  maintainers:
+    - jue@crux.nu
 - repo: manjaro_testing
   subrepo: extra
   srcname: mc
@@ -188,18 +176,6 @@
     - yury@shurup.com
   categories:
     - utils
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.23
-  origversion: 4.8.23-1
-  status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.25
-  origversion: 4.8.25-1
-  status: outdated
 - repo: aerynos
   srcname: midnight-commander
   visiblename: midnight-commander
@@ -269,6 +245,68 @@
   version: 4.8.22
   origversion: 4.8.22-1
   status: legacy
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.23
+  origversion: 4.8.23-1
+  status: legacy
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.24
+  origversion: 4.8.24-1
+  status: legacy
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.25
+  origversion: 4.8.25-1
+  status: outdated
+- repo: aixtoolbox
+  srcname: mc
+  visiblename: mc
+  version: 4.8.31
+  origversion: 4.8.31-1
+  status: outdated
+  summary: User-friendly text console file manager and visual shell.
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - System Environment/Shells
+- repo: almalinux_8
+  subrepo: AppStream
+  srcname: mc
+  visiblename: mc
+  version: 4.8.19
+  origversion: 1:4.8.19-9.el8
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  maintainers:
+    - packager@cloudlinux.com
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
+- repo: almalinux_9
+  subrepo: AppStream
+  srcname: mc
+  binnames:
+    - mc-debugsource
+    - mc-debuginfo
+    - mc-python
+    - mc
+  visiblename: mc
+  version: 4.8.26
+  origversion: 1:4.8.26-5.el9
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  maintainers:
+    - packager@almalinux.org
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
 - repo: alpine_3_17
   subrepo: main
   srcname: mc
@@ -490,6 +528,17 @@
     - cielesti@protonmail.com
   licenses:
     - GPL-3.0-or-later
+- repo: amazon_2
+  srcname: mc
+  visiblename: mc
+  version: 4.8.29
+  origversion: 1:4.8.29-1.amzn2
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
 - repo: alpine_3_22
   subrepo: main
   srcname: mc
@@ -618,17 +667,6 @@
   summary: Languages for package mc
   maintainers:
     - achill@achill.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: nix_stable_25_05
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: File Manager and User Shell for the GNU Project, known as Midnight Commander
-  maintainers:
-    - s.vanderburg@tudelft.nl
   licenses:
     - GPL-3.0-or-later
 - repo: alt_p11
@@ -667,51 +705,6 @@
     - GPL-3.0-or-later
   categories:
     - File tools
-- repo: amazon_1
-  subrepo: main
-  srcname: mc
-  visiblename: mc
-  version: 4.7.0.2
-  origversion: 1:4.7.0.2-3.7.amzn1
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPLv2
-  categories:
-    - System Environment/Shells
-- repo: amazon_2
-  srcname: mc
-  visiblename: mc
-  version: 4.8.29
-  origversion: 1:4.8.29-1.amzn2
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-- repo: amazon_2
-  srcname: mc
-  visiblename: mc
-  version: 4.8.7
-  origversion: 1:4.8.7-11.amzn2.0.2
-  status: legacy
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPLv3+
-  categories:
-    - System Environment/Shells
-- repo: amazon_2
-  srcname: mc
-  visiblename: mc
-  version: 4.8.7
-  origversion: 1:4.8.7-11.amzn2
-  status: legacy
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPLv3+
-  categories:
-    - System Environment/Shells
 - repo: aosc
   srcname: app-utils/mc
   binname: mc
@@ -912,26 +905,6 @@
   summary: GNU Midnight Commander is a visual file manager
   licenses:
     - GPL-2
-- repo: crux_37
-  subrepo: opt
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: GNU Midnight Commander
-  maintainers:
-    - jue@crux.nu
-- repo: crux_38
-  subrepo: opt
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: GNU Midnight Commander
-  maintainers:
-    - jue@crux.nu
 - repo: cygwin
   srcname: mc
   binname: mc
@@ -1219,23 +1192,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: mc
-  binnames:
-    - mc
-    - mc-python
-    - mc-debuginfo
-    - mc-debugsource
-  visiblename: mc
-  version: 4.8.32
-  origversion: 1:4.8.32-1.fc40
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: mc
   binnames:
@@ -1247,6 +1203,23 @@
   version: 4.8.31
   origversion: 1:4.8.31-1.fc40
   status: legacy
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: mc
+  binnames:
+    - mc
+    - mc-python
+    - mc-debuginfo
+    - mc-debugsource
+  visiblename: mc
+  version: 4.8.32
+  origversion: 1:4.8.32-1.fc40
+  status: outdated
   summary: User-friendly text console file manager and visual shell
   licenses:
     - GPL-3.0-or-later
@@ -1414,34 +1387,6 @@
   origversion: null
   status: newest
   summary: Terminal-based visual file manager
-- repo: homebrew
-  srcname: midnight-commander
-  visiblename: midnight-commander
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Terminal-based visual file manager
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: mc
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-- repo: ibmi
-  srcname: mc
-  binnames:
-    - mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-2
-  status: newest
-  summary: Midnight Commander
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - Unspecified
 - repo: kali_rolling
   subrepo: main
   srcname: mc
@@ -1525,54 +1470,6 @@
     - GPL-3+
   categories:
     - sysutils
-- repo: mageia_9
-  subrepo: core/updates
-  srcname: mc
-  binnames:
-    - mc
-    - mc-debuginfo
-    - mc-debugsource
-  visiblename: mc
-  version: 4.8.30
-  origversion: 4.8.30-1.mga9
-  status: legacy
-  summary: A user-friendly file manager and visual shell
-  licenses:
-    - GPLv3+
-  categories:
-    - File tools
-- repo: mageia_9
-  subrepo: core/updates
-  srcname: mc
-  binnames:
-    - mc
-    - mc-debuginfo
-    - mc-debugsource
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1.3.mga9
-  status: newest
-  summary: A user-friendly file manager and visual shell
-  licenses:
-    - GPLv3+
-  categories:
-    - File tools
-- repo: mageia_9
-  subrepo: core/release
-  srcname: mc
-  binnames:
-    - mc
-    - mc-debuginfo
-    - mc-debugsource
-  visiblename: mc
-  version: 4.8.29
-  origversion: 4.8.29-1.mga9
-  status: legacy
-  summary: A user-friendly file manager and visual shell
-  licenses:
-    - GPLv2+
-  categories:
-    - File tools
 - repo: mageia_10
   subrepo: core/release
   srcname: mc
@@ -1601,6 +1498,17 @@
     - GPLv3+
   categories:
     - File tools
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: 4.8.33-1
+  status: newest
+  summary: A file manager that emulates Norton Commander
+  licenses:
+    - GPL-3.0-or-later
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: mc
@@ -1634,6 +1542,17 @@
     - s.vanderburg@tudelft.nl
   licenses:
     - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: File Manager and User Shell for the GNU Project, known as Midnight Commander
+  maintainers:
+    - s.vanderburg@tudelft.nl
+  licenses:
+    - GPL-3.0-or-later
 - repo: nix_stable_25_11
   srcname: mc
   visiblename: mc
@@ -2309,6 +2228,62 @@
   summary: User shell with text-mode full-screen interface.
   categories:
     - File Manager
+- repo: side
+  srcname: runtime/gui/mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: A visual file manager.
+  maintainers:
+    - uglyside@yandex.ru
+  licenses:
+    - GPL-3
+- repo: slackware_15_0
+  subrepo: slackware
+  binname: mc
+  visiblename: mc
+  version: 4.8.27
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware_current
+  subrepo: slackware
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: mc
+  visiblename: mc
+  version: 4.8.27
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: mc
+  visiblename: mc
+  version: 4.8.27
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: solus
   srcname: mc
   binname: mc
@@ -2391,29 +2366,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: starkos
-  subrepo: main
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1
-  status: newest
-  summary: A file manager that emulates Norton Commander
-  maintainers:
-    - starkos@disroot.org
-- repo: t2
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: GNU Midnight Commander
-  maintainers:
-    - stelzy@gmail.com
-  licenses:
-    - GPL
-  categories:
-    - extra/shell
 - repo: termux
   srcname: mc
   binname: mc
@@ -2516,14 +2468,14 @@
   categories:
     - universe/utils
 - repo: ubuntu_24_04
-  subrepo: noble/universe
+  subrepo: noble-updates/universe
   srcname: mc
   binnames:
     - mc
     - mc-data
   visiblename: mc
   version: 4.8.30
-  origversion: 3:4.8.30-1build2
+  origversion: 3:4.8.30-1ubuntu0.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2533,14 +2485,14 @@
   categories:
     - universe/utils
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+  subrepo: noble/universe
   srcname: mc
   binnames:
     - mc
     - mc-data
   visiblename: mc
   version: 4.8.30
-  origversion: 3:4.8.30-1ubuntu0.1
+  origversion: 3:4.8.30-1build2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com

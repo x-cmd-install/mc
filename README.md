@@ -14,12 +14,12 @@ x install mc
 
 ## Code insight
 
-Total: **148,640** lines of code across **568** files in the top 5 languages.
+Total: **148,645** lines of code across **568** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 95,610 | 23,376 | 24,404 | 253 |
-| Autoconf | 34,929 | 1,458 | 1,639 | 61 |
+| Autoconf | 34,934 | 1,458 | 1,640 | 61 |
 | CHeader | 6,676 | 3,145 | 2,690 | 135 |
 | Ini | 6,267 | 780 | 734 | 46 |
 | Automake | 1,483 | 29 | 408 | 73 |
@@ -42,26 +42,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,053 · **Forks**: 129 · **Open issues**: 3,670 · **Contributors**: 36
+- **Stars**: 1,054 · **Forks**: 129 · **Open issues**: 3,671 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 171 · **Open PRs**: 52 · **Closed issues**: 3011 · **Open issues**: 659 · **Commits**: 17064
+- **Releases**: 0 · **Merged PRs**: 172 · **Open PRs**: 53 · **Closed issues**: 3011 · **Open issues**: 660 · **Commits**: 17067
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 4 | 12 | 4 | 6 | 20 |
-| last60d | 2026-09-18 | 0 | 14 | 22 | 10 | 8 | 56 |
-| 90d | 2026-08-19 | 0 | 18 | 29 | 12 | 10 | 64 |
-| last180d | 2026-05-21 | 0 | 22 | 34 | 19 | 12 | 78 |
-| 360d | 2025-11-22 | 0 | 96 | 48 | 81 | 56 | 304 |
-| last720d | 2024-11-27 | 0 | 171 | 52 | 210 | 106 | 932 |
+| 30d | 2026-10-20 | 0 | 4 | 12 | 4 | 5 | 23 |
+| last60d | 2026-09-20 | 0 | 15 | 22 | 10 | 9 | 59 |
+| 90d | 2026-08-21 | 0 | 19 | 30 | 12 | 10 | 67 |
+| last180d | 2026-05-23 | 0 | 23 | 35 | 19 | 13 | 81 |
+| 360d | 2025-11-24 | 0 | 96 | 49 | 81 | 54 | 307 |
+| last720d | 2024-11-29 | 0 | 172 | 53 | 210 | 107 | 935 |
 
 ## Distribution status
 
-Reported by **204** distros on [repology.org](https://repology.org/project/mc). **103** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
+Reported by **201** distros on [repology.org](https://repology.org/project/mc). **102** are ✅ on the latest upstream release, **76** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -71,7 +71,7 @@ Reported by **204** distros on [repology.org](https://repology.org/project/mc). 
 | Ubuntu 26.04 LTS | `4.8.33` | ✅ latest |
 | Ubuntu 24.04 LTS | `4.8.30` | ⚠️ outdated |
 | Arch | `4.8.33` | ✅ latest |
-| Homebrew | `4.8.33` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `4.8.33` | ✅ latest |
 | Nix unstable | `4.8.33` | ✅ latest |
 | Void | `4.8.33` | ✅ latest |
@@ -87,4 +87,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T11:14:23Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:35:30Z._

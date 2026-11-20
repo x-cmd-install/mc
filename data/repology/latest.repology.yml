@@ -1,3 +1,55 @@
+- repo: stalix
+  srcname: bin/mc/slang
+  binname: bin/mc/slang
+  visiblename: bin/mc/slang
+  version: 4.8.33
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.23
+  origversion: 4.8.23-1
+  status: legacy
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.24
+  origversion: 4.8.24-1
+  status: legacy
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.25
+  origversion: 4.8.25-1
+  status: outdated
+- repo: amazon_1
+  subrepo: main
+  srcname: mc
+  visiblename: mc
+  version: 4.7.0.2
+  origversion: 1:4.7.0.2-3.7.amzn1
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPLv2
+  categories:
+    - System Environment/Shells
+- repo: amazon_2
+  srcname: mc
+  visiblename: mc
+  version: 4.8.29
+  origversion: 1:4.8.29-1.amzn2
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  licenses:
+    - GPLv3+
+  categories:
+    - Unspecified
 - repo: amazon_2
   srcname: mc
   visiblename: mc
@@ -20,120 +72,59 @@
     - GPLv3+
   categories:
     - System Environment/Shells
-- repo: amazon_1
-  subrepo: main
+- repo: aixtoolbox
   srcname: mc
   visiblename: mc
-  version: 4.7.0.2
-  origversion: 1:4.7.0.2-3.7.amzn1
+  version: 4.8.31
+  origversion: 4.8.31-1
   status: outdated
-  summary: User-friendly text console file manager and visual shell
+  summary: User-friendly text console file manager and visual shell.
   licenses:
-    - GPLv2
+    - GPL-3.0-or-later
   categories:
     - System Environment/Shells
-- repo: homebrew
-  srcname: midnight-commander
-  visiblename: midnight-commander
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Terminal-based visual file manager
-- repo: hpux_11_31
-  subrepo: ia64_64
+- repo: almalinux_8
+  subrepo: AppStream
   srcname: mc
-  binname: mc
   visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-- repo: ibmi
-  srcname: mc
-  binnames:
-    - mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-2
-  status: newest
-  summary: Midnight Commander
+  version: 4.8.19
+  origversion: 1:4.8.19-9.el8
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
+  maintainers:
+    - packager@cloudlinux.com
   licenses:
-    - GPL-3.0-or-later
+    - GPLv3+
   categories:
     - Unspecified
-- repo: starkos
-  subrepo: main
+- repo: almalinux_9
+  subrepo: AppStream
   srcname: mc
+  binnames:
+    - mc-debugsource
+    - mc-debuginfo
+    - mc-python
+    - mc
   visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1
-  status: newest
-  summary: A file manager that emulates Norton Commander
+  version: 4.8.26
+  origversion: 1:4.8.26-5.el9
+  status: outdated
+  summary: User-friendly text console file manager and visual shell
   maintainers:
-    - starkos@disroot.org
-- repo: t2
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: GNU Midnight Commander
-  maintainers:
-    - stelzy@gmail.com
+    - packager@almalinux.org
   licenses:
-    - GPL
+    - GPLv3+
   categories:
-    - extra/shell
-- repo: crux_37
-  subrepo: opt
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: GNU Midnight Commander
-  maintainers:
-    - jue@crux.nu
-- repo: crux_38
-  subrepo: opt
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: null
-  status: newest
-  summary: GNU Midnight Commander
-  maintainers:
-    - jue@crux.nu
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: mc
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1
-  status: newest
-  summary: A file manager that emulates Norton Commander
-  licenses:
-    - GPL-3.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: mc
-  binname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1
-  status: newest
-  summary: A file manager that emulates Norton Commander
-  licenses:
-    - GPL-3.0-or-later
-- repo: raspbian_oldstable
+    - Unspecified
+- repo: pardus_21
   subrepo: main
   srcname: mc
   binnames:
     - mc
     - mc-data
   visiblename: mc
-  version: 4.8.29
-  origversion: 3:4.8.29-2
+  version: 4.8.26
+  origversion: 3:4.8.26-1.1
   status: outdated
   maintainers:
     - onlyjob@debian.org
@@ -142,8 +133,8 @@
     - yury@shurup.com
   categories:
     - utils
-- repo: raspbian_stable
-  subrepo: main
+- repo: parrot
+  subrepo: parrot/main
   srcname: mc
   binnames:
     - mc
@@ -159,15 +150,15 @@
     - yury@shurup.com
   categories:
     - utils
-- repo: raspbian_testing
-  subrepo: main
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: mc
   binnames:
     - mc
     - mc-data
   visiblename: mc
   version: 4.8.33
-  origversion: 3:4.8.33-1.1
+  origversion: 3:4.8.33-1+deb13u1
   status: newest
   maintainers:
     - onlyjob@debian.org
@@ -176,6 +167,46 @@
     - yury@shurup.com
   categories:
     - utils
+- repo: pclinuxos
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: 4.8.33-1pclos2025
+  status: newest
+  summary: A user-friendly file manager and visual shell
+  categories:
+    - File tools
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.20
+  origversion: 4.8.20-1
+  status: legacy
+- repo: alpine_3_19
+  subrepo: main
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.31
+  origversion: 4.8.31-r0
+  status: outdated
+  summary: Filemanager/shell that emulates Norton Commander
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-3.0-or-later
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.21
+  origversion: 4.8.21-1
+  status: legacy
+- repo: aix_osp
+  srcname: mc
+  visiblename: mc
+  version: 4.8.22
+  origversion: 4.8.22-1
+  status: legacy
 - repo: aerynos
   srcname: midnight-commander
   visiblename: midnight-commander
@@ -227,86 +258,6 @@
   version: 4.8.19
   origversion: 4.8.19-1
   status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.20
-  origversion: 4.8.20-1
-  status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.21
-  origversion: 4.8.21-1
-  status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.22
-  origversion: 4.8.22-1
-  status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.23
-  origversion: 4.8.23-1
-  status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.24
-  origversion: 4.8.24-1
-  status: legacy
-- repo: aix_osp
-  srcname: mc
-  visiblename: mc
-  version: 4.8.25
-  origversion: 4.8.25-1
-  status: outdated
-- repo: aixtoolbox
-  srcname: mc
-  visiblename: mc
-  version: 4.8.31
-  origversion: 4.8.31-1
-  status: outdated
-  summary: User-friendly text console file manager and visual shell.
-  licenses:
-    - GPL-3.0-or-later
-  categories:
-    - System Environment/Shells
-- repo: almalinux_8
-  subrepo: AppStream
-  srcname: mc
-  visiblename: mc
-  version: 4.8.19
-  origversion: 1:4.8.19-9.el8
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  maintainers:
-    - packager@cloudlinux.com
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
-- repo: almalinux_9
-  subrepo: AppStream
-  srcname: mc
-  binnames:
-    - mc-debugsource
-    - mc-debuginfo
-    - mc-python
-    - mc
-  visiblename: mc
-  version: 4.8.26
-  origversion: 1:4.8.26-5.el9
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
 - repo: alpine_3_17
   subrepo: main
   srcname: mc
@@ -381,19 +332,6 @@
   origversion: 4.8.29-r2
   status: outdated
   summary: Languages for package mc
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-3.0-or-later
-- repo: alpine_3_19
-  subrepo: main
-  srcname: mc
-  binname: mc
-  visiblename: mc
-  version: 4.8.31
-  origversion: 4.8.31-r0
-  status: outdated
-  summary: Filemanager/shell that emulates Norton Commander
   maintainers:
     - ncopa@alpinelinux.org
   licenses:
@@ -528,17 +466,6 @@
     - cielesti@protonmail.com
   licenses:
     - GPL-3.0-or-later
-- repo: amazon_2
-  srcname: mc
-  visiblename: mc
-  version: 4.8.29
-  origversion: 1:4.8.29-1.amzn2
-  status: outdated
-  summary: User-friendly text console file manager and visual shell
-  licenses:
-    - GPLv3+
-  categories:
-    - Unspecified
 - repo: alpine_3_22
   subrepo: main
   srcname: mc
@@ -905,6 +832,26 @@
   summary: GNU Midnight Commander is a visual file manager
   licenses:
     - GPL-2
+- repo: crux_37
+  subrepo: opt
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: GNU Midnight Commander
+  maintainers:
+    - jue@crux.nu
+- repo: crux_38
+  subrepo: opt
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: GNU Midnight Commander
+  maintainers:
+    - jue@crux.nu
 - repo: cygwin
   srcname: mc
   binname: mc
@@ -1375,9 +1322,9 @@
 - repo: haikuports_master
   srcname: app-misc/mc
   visiblename: app-misc/mc
-  version: 4.8.32
+  version: 4.8.33
   origversion: null
-  status: outdated
+  status: newest
   categories:
     - app-misc
 - repo: homebrew
@@ -1387,6 +1334,34 @@
   origversion: null
   status: newest
   summary: Terminal-based visual file manager
+- repo: homebrew
+  srcname: midnight-commander
+  visiblename: midnight-commander
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal-based visual file manager
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+- repo: ibmi
+  srcname: mc
+  binnames:
+    - mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: 4.8.33-2
+  status: newest
+  summary: Midnight Commander
+  licenses:
+    - GPL-3.0-or-later
+  categories:
+    - Unspecified
 - repo: kali_rolling
   subrepo: main
   srcname: mc
@@ -1499,6 +1474,28 @@
   categories:
     - File tools
 - repo: manjaro_stable
+  subrepo: extra
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: 4.8.33-1
+  status: newest
+  summary: A file manager that emulates Norton Commander
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: mc
+  binname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: 4.8.33-1
+  status: newest
+  summary: A file manager that emulates Norton Commander
+  licenses:
+    - GPL-3.0-or-later
+- repo: manjaro_unstable
   subrepo: extra
   srcname: mc
   binname: mc
@@ -1925,66 +1922,6 @@
   summary: A file manager that emulates Norton Commander
   licenses:
     - GPL
-- repo: pardus_21
-  subrepo: main
-  srcname: mc
-  binnames:
-    - mc
-    - mc-data
-  visiblename: mc
-  version: 4.8.26
-  origversion: 3:4.8.26-1.1
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - debian@denis-briand.fr
-    - tille@debian.org
-    - yury@shurup.com
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot/main
-  srcname: mc
-  binnames:
-    - mc
-    - mc-data
-  visiblename: mc
-  version: 4.8.33
-  origversion: 3:4.8.33-1+deb13u1
-  status: newest
-  maintainers:
-    - onlyjob@debian.org
-    - debian@denis-briand.fr
-    - tille@debian.org
-    - yury@shurup.com
-  categories:
-    - utils
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: mc
-  binnames:
-    - mc
-    - mc-data
-  visiblename: mc
-  version: 4.8.33
-  origversion: 3:4.8.33-1+deb13u1
-  status: newest
-  maintainers:
-    - onlyjob@debian.org
-    - debian@denis-briand.fr
-    - tille@debian.org
-    - yury@shurup.com
-  categories:
-    - utils
-- repo: pclinuxos
-  srcname: mc
-  visiblename: mc
-  version: 4.8.33
-  origversion: 4.8.33-1pclos2025
-  status: newest
-  summary: A user-friendly file manager and visual shell
-  categories:
-    - File tools
 - repo: pisi_main
   subrepo: main
   srcname: util/misc/mc
@@ -2136,6 +2073,57 @@
     - yury@shurup.com
   categories:
     - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: mc
+  binnames:
+    - mc
+    - mc-data
+  visiblename: mc
+  version: 4.8.29
+  origversion: 3:4.8.29-2
+  status: outdated
+  maintainers:
+    - onlyjob@debian.org
+    - debian@denis-briand.fr
+    - tille@debian.org
+    - yury@shurup.com
+  categories:
+    - utils
+- repo: raspbian_stable
+  subrepo: main
+  srcname: mc
+  binnames:
+    - mc
+    - mc-data
+  visiblename: mc
+  version: 4.8.33
+  origversion: 3:4.8.33-1+deb13u1
+  status: newest
+  maintainers:
+    - onlyjob@debian.org
+    - debian@denis-briand.fr
+    - tille@debian.org
+    - yury@shurup.com
+  categories:
+    - utils
+- repo: raspbian_testing
+  subrepo: main
+  srcname: mc
+  binnames:
+    - mc
+    - mc-data
+  visiblename: mc
+  version: 4.8.33
+  origversion: 3:4.8.33-1.1
+  status: newest
+  maintainers:
+    - onlyjob@debian.org
+    - debian@denis-briand.fr
+    - tille@debian.org
+    - yury@shurup.com
+  categories:
+    - utils
 - repo: ravenports
   srcname: midnight-commander
   binname: midnight-commander
@@ -2148,6 +2136,16 @@
     - fallback-mnt-ravenports@repology
   categories:
     - misc
+- repo: starkos
+  subrepo: main
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: 4.8.33-1
+  status: newest
+  summary: A file manager that emulates Norton Commander
+  maintainers:
+    - starkos@disroot.org
 - repo: rocky_8
   subrepo: AppStream
   srcname: mc
@@ -2333,17 +2331,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: stalix
-  srcname: bin/mc/slang
-  binname: bin/mc/slang
-  visiblename: bin/mc/slang
-  version: 4.8.33
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix_dev
   srcname: bin/mc/curses/n
   binname: bin/mc/curses/n
@@ -2366,6 +2353,19 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: t2
+  srcname: mc
+  visiblename: mc
+  version: 4.8.33
+  origversion: null
+  status: newest
+  summary: GNU Midnight Commander
+  maintainers:
+    - stelzy@gmail.com
+  licenses:
+    - GPL
+  categories:
+    - extra/shell
 - repo: termux
   srcname: mc
   binname: mc

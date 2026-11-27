@@ -14,11 +14,11 @@ x install mc
 
 ## Code insight
 
-Total: **148,661** lines of code across **568** files in the top 5 languages.
+Total: **148,665** lines of code across **568** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 95,623 | 23,388 | 24,404 | 253 |
+| C | 95,627 | 23,388 | 24,408 | 253 |
 | Autoconf | 34,934 | 1,458 | 1,640 | 61 |
 | CHeader | 6,679 | 3,145 | 2,691 | 135 |
 | Ini | 6,267 | 780 | 734 | 46 |
@@ -42,22 +42,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,057 · **Forks**: 132 · **Open issues**: 3,675 · **Contributors**: 37
+- **Stars**: 1,059 · **Forks**: 132 · **Open issues**: 3,675 · **Contributors**: 38
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 174 · **Open PRs**: 56 · **Closed issues**: 3013 · **Open issues**: 662 · **Commits**: 17071
+- **Releases**: 0 · **Merged PRs**: 175 · **Open PRs**: 55 · **Closed issues**: 3013 · **Open issues**: 662 · **Commits**: 17073
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 5 | 10 | 5 | 4 | 25 |
-| last60d | 2026-09-27 | 0 | 15 | 21 | 11 | 11 | 53 |
-| 90d | 2026-08-28 | 0 | 20 | 32 | 12 | 12 | 67 |
-| last180d | 2026-05-30 | 0 | 24 | 38 | 21 | 15 | 84 |
-| 360d | 2025-12-01 | 0 | 89 | 52 | 78 | 55 | 298 |
-| last720d | 2024-12-06 | 0 | 174 | 56 | 210 | 109 | 937 |
+| 30d | 2026-10-28 | 0 | 6 | 9 | 5 | 4 | 27 |
+| last60d | 2026-09-28 | 0 | 16 | 18 | 11 | 11 | 55 |
+| 90d | 2026-08-29 | 0 | 21 | 31 | 12 | 12 | 69 |
+| last180d | 2026-05-31 | 0 | 25 | 37 | 21 | 15 | 86 |
+| 360d | 2025-12-02 | 0 | 89 | 51 | 77 | 55 | 300 |
+| last720d | 2024-12-07 | 0 | 175 | 55 | 209 | 109 | 937 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for mc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T09:57:20Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T10:20:17Z._

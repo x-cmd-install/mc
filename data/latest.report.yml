@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-11-27T10:19:40Z
+  collectedAt: 2026-11-28T08:38:10Z
 timeline:
   created: 2025-02-27
   lastCommit: 2026-11-26
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 
   lastPrerelease: 
 popularity:
-  star: 1059
+  star: 1061
   watcher: 10
   fork: 132
   release: 0
@@ -34,31 +34,31 @@ language:
 totalBytes: 4986348
 recent:
   last30d:
-    since: 2026-10-28
+    since: 2026-10-29
     release: 0
     mergedPR: 6
     openPR: 9
-    closedIssue: 5
+    closedIssue: 4
     openIssue: 4
     commit: 27
   last60d:
-    since: 2026-09-28
+    since: 2026-09-29
     release: 0
-    mergedPR: 16
+    mergedPR: 15
     openPR: 18
     closedIssue: 11
     openIssue: 11
     commit: 55
   last90d:
-    since: 2026-08-29
+    since: 2026-08-30
     release: 0
     mergedPR: 21
-    openPR: 31
+    openPR: 30
     closedIssue: 12
     openIssue: 12
     commit: 69
   last180d:
-    since: 2026-05-31
+    since: 2026-06-01
     release: 0
     mergedPR: 25
     openPR: 37
@@ -66,15 +66,15 @@ recent:
     openIssue: 15
     commit: 86
   last360d:
-    since: 2025-12-02
+    since: 2025-12-03
     release: 0
-    mergedPR: 89
+    mergedPR: 88
     openPR: 51
-    closedIssue: 77
+    closedIssue: 76
     openIssue: 55
     commit: 300
   last720d:
-    since: 2024-12-07
+    since: 2024-12-08
     release: 0
     mergedPR: 175
     openPR: 55
@@ -90,7 +90,7 @@ total:
   commit: 17073
 ---
 path: /home/runner/.x-repo/github.com/MidnightCommander/mc
-collectedAt: 2026-11-27T10:19:57Z
+collectedAt: 2026-11-28T08:38:26Z
 loc:
   C:
     code: 95627
